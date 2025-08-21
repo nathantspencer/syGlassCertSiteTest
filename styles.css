@@ -1,0 +1,174 @@
+@font-face {
+	font-family: Alata-Regular;
+	src: url("Alata-Regular.woff2") format("woff2");
+}
+
+body
+{
+	background-color: #f4f0e8;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	max-width: 800px;
+	margin: 75px auto 75px auto;
+}
+
+h1
+{
+	display: inline-block;
+	font-family: Alata-Regular;
+	vertical-align: top;
+	margin: 0 0 0 5px;
+	color: black;
+}
+
+h2
+{
+	font-family: Alata-Regular;
+}
+
+p
+{
+	font-size: 14pt;
+	line-height: 125%;
+}
+
+a
+{
+    color: #066899;
+    text-decoration: none;
+}
+
+input[type=text]
+{
+	font-family: monospace;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12pt;
+	padding: 10px 10px 10px 10px;
+	border-radius: 8px;
+}
+
+input[type=submit]
+{
+	font-family: Alata-Regular;
+	font-size: 12pt;
+	padding: 8px 10px 9px 10px;
+	margin-left: 5px;
+	border-radius: 8px;
+	filter: sepia(50%) brightness(90%);
+	cursor: pointer;
+}
+
+hr
+{
+	border-radius: 2px;
+	border-width: 2px;
+	color: black;
+}
+
+.achievementTitle
+{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.achievementSubtitle
+{
+	font-size: 11pt;
+	font-style: italic;
+	margin-top: 6px;
+}
+
+.achievementBadge
+{
+	height: 55px;
+	filter: invert();
+}
+
+.achievementContainer	
+{
+	float:left;
+	border-radius: 12px;
+	border-width: 2px;
+	border-color: black;
+	border-style: inset;
+	margin-right: 16px;
+	background-color: #f4f0e8;
+	filter: sepia(50%) brightness(90%);	
+}
+
+.achievementDescription
+{
+	margin-top: 24px;
+}
+
+#header
+{
+	text-align: center;
+	background-color: #f4f0e8;	
+	border-radius: 16px;
+	border-width: 2px;
+	border-color: black;
+	border-style: inset;
+	padding: 20px 0 20px 0;
+	filter: sepia(50%) brightness(90%);	
+}
+
+#headerLogo
+{
+	height: 3em;
+	display: inline-block;
+	margin-top: 0.1em;
+}
+
+#footer
+{
+	font-family: Alata-Regular;
+	text-align: center;
+	margin: 100px 0 50px 0;
+}
+
+#idText
+{
+	font-family: monospace;
+}
+
+#check
+{
+	color: #f4f0e8;
+	background-color: green;
+	border-radius: 10px;
+	font-size: 12px;
+	padding: 1px 4px 1px 4px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	vertical-align: bottom;
+}
+
+#share
+{
+	color: #f4f0e8;
+	filter: sepia(70%) brightness(70%);
+	display: inline-block;
+	margin-left: 5px;
+	margin-bottom: 4px;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+#nameHeader
+{
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+#profilePicture
+{
+	height: 225px;
+	float: left;
+	margin: 24px 24px 14px 0;
+	border-radius: 16px;
+	border-width: 2px;
+	border-color: black;
+	border-style: inset;
+}

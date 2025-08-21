@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css"/>
+		<script type="text/javascript" src="verify.js"></script>
+		<title>syGlass Certificate Verification</title>
+	</head>
+	<body>
+		<a href="index.html"><div id="header">
+			<img src="syGlassEye.png" alt="The syGlass eye logo" id="headerLogo"/>
+			<h1>syGlass Certificate Verification</h1>
+		</div></a>
+		<br/>
+
+		<h2>What are syGlass certificates?</h2>
+		<p>
+			syGlass certificates are issued to individuals who, using <a href="https://syglass.io"
+			target="_blank">syGlass software</a>, reach specific training milestones or contribute
+			to certain participatory science collaborations. Certificates are marked according
+			to the achievement(s) for which they were issued.
+		</p>
+
+		<h2>How can I verify a certificate?</h2>
+		<p>
+			Each individual to whom a certificate has been issued is assigned a certificate ID
+			that begins with "SY" and ends in a string of numbers. Certificates can be verified
+			by entering the certificate ID in the text entry field beneath the header "Verify
+			a certificate" below and pressing "Verify."
+		</p>
+
+		<h2>Verify a certificate:</h2>
+		<form id="verifyForm">
+			<label for="idField">Enter the certificate ID below and press "Verify."</label>
+			<br/><br/>
+			<input type="text" id="idField"></input>
+			<input type="submit" value="Verify" onsubmit="verify(this)">
+		</form>
+
+		<div id="footer">
+			© 2025 syGlass, Inc. All rights reserved.
+		</div>
+	</body>
+</html>
