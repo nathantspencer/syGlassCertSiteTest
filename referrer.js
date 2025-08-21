@@ -1,7 +1,9 @@
-console.log('DOC1:' + document.referrer)
-console.log('LOC1:' + location.href)
-
 window.addEventListener('DOMContentLoaded', (event) => {
-	console.log('DOC2:' + document.referrer)
-	console.log('LOC2:' + location.href)
+	const slashSplits = location.href.split('/');
+	const slashSplitsLength = slashSplits.length;
+	const requestedID = splashSplits[slashSplitsLength - 1].split('.')[0];
+	document.getElementById('badCert').innerHTML = requestedID;
 });
+
+
+
