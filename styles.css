@@ -33,8 +33,13 @@ p
 
 a
 {
-    color: #066899;
-    text-decoration: none;
+	color: #066899;
+	text-decoration: none;
+}
+
+label
+{
+	font-size: 14pt;
 }
 
 input[type=text]
